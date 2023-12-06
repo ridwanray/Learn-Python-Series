@@ -36,9 +36,6 @@ my_list = [1, 4, 5, 6, 8, 11, 3, 12]
 result = filter(lambda x : x > 3, my_list)
 print(list(result))
 
-#Todo: logic for getting cur takska and logs
-#invite a supervior into a project multiple accounts alabarise@gmail.com
-
 
 
 
