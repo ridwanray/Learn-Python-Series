@@ -1,7 +1,7 @@
-age = 9
+name = "Ali"
 
-def greet(name):
-    print(f"Name is {name}")
+def greet(age):
+    print(f"Age is {age}")
 
-print(f"Name is {name}")
+print(f"Name is {age}")
 
