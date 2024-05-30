@@ -2,7 +2,7 @@ import requests
 from concurrent.futures import ProcessPoolExecutor
 import time
 
-urls = ['https://ironpython.net/', 'https://www.jython.org/'] * 50
+urls = ['https://ironpython.net/', 'https://www.jython.org/'] * 10
 
 def fetch_url(url):
     response = requests.get(url)

@@ -3,7 +3,7 @@ import asyncio
 import time
 
 
-urls = ['https://ironpython.net/', 'https://www.jython.org/'] * 50
+urls = ['https://ironpython.net/', 'https://www.jython.org/'] * 10
 
 async def fetch_url(session, url):
     async with session.get(url) as response:
