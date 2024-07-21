@@ -1,0 +1,6 @@
+def greet():
+    ...
+
+numbers: list[int] = [1, 2, 3]
+for each in numbers:
+    ...
